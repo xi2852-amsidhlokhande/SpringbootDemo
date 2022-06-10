@@ -39,6 +39,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Spatial Library to calculate distance between two geographical points on earth-->
+		<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-spatial -->
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-spatial</artifactId>
+			<version>8.2.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
